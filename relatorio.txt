@@ -1,0 +1,50 @@
+Yuri Marques Strack - 1710868
+
+Todos os casos estão funcionando.
+Para realizar os testes todas as funções presentes no enunciado do trabalho
+foram utilizadas. Além delas, para poder testar o funcionamento de todas as
+variaveis e dos parametros, utilizei funções que fazem operações com todas as
+variaveis e parametros, bem como de retornar cada uma delas. Alguns exemplos:
+
+1:
+  v4 := p2
+  v4 -= $1
+  v2 := p1
+  v2 *= v4
+  ret v2
+
+2:
+ p1 += p2
+ v3 := p2
+ p2 += p1
+ p2 *:= v3
+ ret p2
+
+ Já para os teste de if e go, usei funções que tratam todos os casos (jump para
+ linha anterior,jump linha da frente jump se menor, jump se igual). Alguns
+ exemplos:
+
+ 1:
+  go 3
+  p1 := $0
+  ret p1
+
+2: (Caso em que fica em loop infinito pois sempre vai para linha 1)
+  p1 -= $1
+  go 1
+  ret p1
+
+3:
+  if p1 4 5
+  p1 -= $1
+  go 1
+  v1 := p1
+  go 8
+  v2 := p1
+  go 9
+  ret v1
+  ret v2
+
+Obs1: Após o termino dos testes e relendo o código percebi que é possivel
+otimizar bastante, porém devido a hora em que terminei e por não estar mas na
+PUC para testar com o linux optei por deixar dessa forma, acredito que nao seja um grande problema.
