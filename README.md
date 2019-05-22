@@ -1,5 +1,5 @@
 # MiniCompiler
--The purpose of this project is to develop in C a function called "geracod", which implements a small code generator (a "micro-compiler") for a very simple programming language called SB.  
+- The purpose of this project is to develop in C a function called "geracod", which implements a small code generator (a "micro-compiler") for a very simple programming language called SB.  
 
 # How the SB language works
 - The local variables follow the form vi, i identifies the variable (i.e v1,v2,...).   
