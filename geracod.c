@@ -1,4 +1,4 @@
-/* Yuri_Marques_Strack 1710868 3WB*/
+/* Yuri_Marques_Strack 3WB*/
 
 #include <stdio.h>
 #include <stdlib.h>
